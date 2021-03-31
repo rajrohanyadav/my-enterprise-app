@@ -1,0 +1,29 @@
+{
+  "name": "my-enterprise-app",
+  "version": "1.0.0",
+  "description": "This is a demo app which I'll use to create a complete CI/CD workflow.",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rajrohanyadav/my-enterprise-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rajrohanyadav/my-enterprise-app/issues"
+  },
+  "homepage": "https://github.com/rajrohanyadav/my-enterprise-app#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
